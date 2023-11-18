@@ -13,7 +13,7 @@ The chat can be a group or channel. It can be private or public.
 
 Use below buttons to learn more !
 
-By @StarkBots
+By @ZenBotX
     """
 
     # Home Button
@@ -64,11 +64,9 @@ Example : `/fsub -1001505616678` or `/forcesubscribe -1001375849192`
 
 A telegram force subscribing bot by @StarkBots
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/ForceSubscribeBot)
-
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @CoderX , @NoobZen [full credits]
     """
