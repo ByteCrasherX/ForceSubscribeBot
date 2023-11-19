@@ -17,7 +17,7 @@ async def must_join_channel(bot: Client, msg: Message):
                 link = chat_info.invite_link
             try:
                 await msg.reply(
-                    f"You must join [this channel](https://t.me/+rbzgHmr_BmgxYmY9}) to use me. After joining try again !",
+                    "You must join [this channel](https://t.me/+rbzgHmr_BmgxYmY9}) to use me. After joining try again !",
                     disable_web_page_preview=True,
                     reply_markup=InlineKeyboardMarkup([
                         [InlineKeyboardButton("✨ Join Channel ✨", url=link)]
