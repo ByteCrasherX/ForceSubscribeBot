@@ -7,6 +7,7 @@ from ForceSubscribeBot.database.chats_sql import get_force_chat, change_force_ch
 
 @Client.on_message(filters.text & filters.incoming & filters.command(["fsub", "forcesubscribe"]))
 async def fsub(bot, msg: Message):
+    return
     chat_id = msg.chat.id
     bot_id = (await bot.get_me()).id
     success = await admin_check(bot, msg)
