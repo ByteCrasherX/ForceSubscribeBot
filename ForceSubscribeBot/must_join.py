@@ -10,11 +10,6 @@ async def must_join_channel(bot: Client, msg: Message):
         try:
             await bot.get_chat_member(MUST_JOIN, msg.from_user.id)
         except UserNotParticipant:
-            if MUST_JOIN.isalpha():
-                link = "https://t.me/" + MUST_JOIN
-            else:
-                chat_info = await bot.get_chat(MUST_JOIN)
-                link = chat_info.invite_link
             try:
                 await msg.reply(
                     "You must join [this channel](https://t.me/+rbzgHmr_BmgxYmY9}) to use me. After joining try again !",
